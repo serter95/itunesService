@@ -10,7 +10,7 @@ go get github.com/serter95/itunesServiceGo
 ```go
 package main
 
-import "itunesServiceGo"
+import "github.com/serter95/itunesServiceGo"
 
 func main() {
     sliceWithData, err := itunesServiceGo.FindResults("your criteria")
